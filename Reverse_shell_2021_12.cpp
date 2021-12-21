@@ -1,7 +1,7 @@
-#POC reverse shell written by Norbert Tihanyi to bypass Windows 11 Defender (December 2021) 
-#Twitter: @TihanyiNorbert
+//POC reverse shell written by Norbert Tihanyi to bypass Windows 11 Defender (December 2021) 
+//Twitter: @TihanyiNorbert
 
-#include "stdafx.h"
+#include <tchar.h>
 #include <winsock2.h>
 #include <stdio.h>
 #include <string>
